@@ -40,7 +40,7 @@ class AllNewsGuardianRepo
             return  $this->latest_news = $latest_news;
             
         } else {
-            return 'خطا در دریافت اطلاعات از API';
+            return 'problem...';
         }
         
 

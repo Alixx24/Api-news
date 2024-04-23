@@ -39,7 +39,7 @@ class LastNewsguardian extends Component
                 ]);
             }
         } else {
-            return 'خطا در دریافت اطلاعات از API';
+            return 'problem....';
         }
     }
     public function render()
