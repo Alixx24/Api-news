@@ -12,7 +12,7 @@ class LastNewsApiRepo
 
     public function getData()
     {
-        $apiKey = '80e88458375643ce9d152832f7923eb1';
+        $apiKey = '***';
 
         $response = Http::get("https://newsapi.org/v2/top-headlines?country=us&pageSize=5&apiKey={$apiKey}");
         $articles = json_decode($response->body(), true)['articles'];
