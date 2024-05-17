@@ -12,7 +12,7 @@ class AllNewsGuardianRepo
 
     public function getData()
     {
-        $apiKey = 'c6397f0b-bd63-40b2-a4fe-8610b24461c8';
+        $apiKey = '**';
         $url = 'https://content.guardianapis.com/search?api-key=' . $apiKey . '&order-by=newest&page-size=5';
         $response = Http::get($url);
         if ($response->successful()) {
